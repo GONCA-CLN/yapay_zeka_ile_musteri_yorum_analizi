@@ -24,7 +24,8 @@ Google Gemini yapay zeka modeline API ile bağlanıp müsteri yorumlarını duyg
 - asenkron gemini çağrısını görmüş olacağız
 
 Google Gemini API key
-- AQ.Ab8RN6IjQRGc22N9sefqrL8A1jJBHVe_bVp_pN5jt__aKe8Zew
+- Google AI Studio üzerinden oluşturulan API key (DASHBORAD - API keys: https://aistudio.google.com/api-keys)
+    Google AI Studio -> Dashboard -> API keys -> Create API key -> Create poroject (MusteriYorumAnalizi - API key name: MusteriYorumAnalizApiKey)
 
 # Adım 2: PostgreSQL ile analiz sonuçlarını kaydetme
 
@@ -135,9 +136,11 @@ Uygulama Railway üzerinden deploy edilecek
 
     projeyi repoya push etme:
 
+    repo name: yapay_zeka_ile_musteri_yorum_analizi
+
     git init
     git add .
-    git commit -m "first commit"
+    git commit -m "gnc first commit"
     git branch -M main
     git remote add origin https://github.com/GONCA-CLN/yapay_zeka_ile_musteri_yorum_analizi.git
     git push -u origin main
